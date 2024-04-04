@@ -1,8 +1,7 @@
 MiniNec
 =======
 
-BASIC source code and DOS executable for mininec3 from NOSC (Naval
-Ocean Systems Command)
+BASIC source code for mininec3 from NOSC (Naval Ocean Systems Command)
 
 .. |-| unicode:: U+202F .. Thin non-breaking space
     :trim:
@@ -12,7 +11,7 @@ I'm using this version of the Basic code mainly for regression testing
 of my Python version. The Python version is *much* faster because it
 uses numpy_ vectorization.
 
-This has the following changes to the original:
+The Basic code here has the following changes to the original:
 
 - Larger data structures for larger models (see the DIM statements in
   the beginning)
